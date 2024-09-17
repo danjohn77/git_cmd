@@ -7,5 +7,6 @@ git commit -m "Message aboout the commit" -- commit the changes and give a usefu
     This allows you to move between states of a project. 'A branch in Git is simply a lightweight movable pointer 
     to one of these commits.' Once finished witht he changes you can merge from new branch back to the primary branch."
 git checkout -b <my branch name> -- creates a new branch and checks it out so you will move to that branch, off the primary branch.
-git branch -- confirms that new branch was created.
+git branch -- confirms that new branch was created. * denotes the active branch.
+This is some text added on the 'my-new-branch' branch.
 
