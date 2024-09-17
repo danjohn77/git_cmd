@@ -1,0 +1,6 @@
+git init -- initialises a git repo
+"git only saves/manages changes to files that it tracks."
+git status -- command to see which files git know exist.
+git add <filename> -- adds file to the staging environment.
+git commit -m "Message aboout the commit" -- commit the changes and give a useful message of what was done.
+ 
