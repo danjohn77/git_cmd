@@ -17,4 +17,5 @@ git remote add origin https://github.com/danjohn77/git_cmd.git -- link to github
 git remote add upstream https://github.com/danjohn77/git_cmd.git -- this command worked better to set up push to github.
 git push -u origin main -- push to github
 
-## New text for my-new-branch
+## to push your changes to the remote repository, you could've used either the command: git push git@github.com:git/git.git yourbranchname or git push origin yourbranchname
+
