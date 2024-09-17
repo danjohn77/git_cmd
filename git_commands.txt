@@ -11,3 +11,4 @@ git checkout -b <my branch name> -- creates a new branch and checks it out so yo
 git branch -- confirms that new branch was created. * denotes the active branch.
 git checkout master -- this moves you back to the primary branch.
 git merge <branch name> -- this merges changes from branch to the primary branch.
+git branch -d <branch name> -- once merge has occured the branch can be deleted if necessary.
