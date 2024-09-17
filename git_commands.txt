@@ -19,3 +19,4 @@ git push -u origin main -- push to github
 
 ## to push your changes to the remote repository, you could've used either the command: git push git@github.com:git/git.git yourbranchname or git push origin yourbranchname
 
+git pull origin master -- this command will pull code from github to repo on local machine.
