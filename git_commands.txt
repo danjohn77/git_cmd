@@ -14,6 +14,7 @@ git merge <branch name> -- this merges changes from branch to the primary branch
 git branch -d <branch name> -- once merge has occured the branch can be deleted if necessary.
 ##To push to github
 git remote add origin https://github.com/danjohn77/git_cmd.git -- link to github repo address
+git remote add upstream https://github.com/danjohn77/git_cmd.git -- this command worked better to set up push to github.
 git push -u origin main -- push to github
 
 ## New text for my-new-branch
