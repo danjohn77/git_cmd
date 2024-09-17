@@ -1,14 +1,17 @@
 git init -- initialises a git repo
-"git only saves/manages changes to files that it tracks."
+##git only saves/manages changes to files that it tracks.
 git status -- command to see which files git know exist.
 git add <filename> -- adds file to the staging environment.
 git add . -- this adds all new changes ready for commit.
 git commit -m "Message aboout the commit" -- commit the changes and give a useful message of what was done.
-"If you want to test a new feature, but don't want to mess with the main project, you can branch the project.
-    This allows you to move between states of a project. 'A branch in Git is simply a lightweight movable pointer 
-    to one of these commits.' Once finished witht he changes you can merge from new branch back to the primary branch."
+##If you want to test a new feature, but don't want to mess with the main project, you can branch the project.
+##    This allows you to move between states of a project. 'A branch in Git is simply a lightweight movable pointer 
+##    to one of these commits.' Once finished witht he changes you can merge from new branch back to the primary branch.
 git checkout -b <my branch name> -- creates a new branch and checks it out so you will move to that branch, off the primary branch.
 git branch -- confirms that new branch was created. * denotes the active branch.
 git checkout master -- this moves you back to the primary branch.
 git merge <branch name> -- this merges changes from branch to the primary branch.
 git branch -d <branch name> -- once merge has occured the branch can be deleted if necessary.
+##To push to github
+git remote add origin https://github.com/danjohn77/git_cmd.git -- link to github repo address
+git push -u origin main -- push to github
