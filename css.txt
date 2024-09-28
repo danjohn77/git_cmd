@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="/exampleapp/main.css" />
+The head element of the HTML code of the Notes page contains a link tag, 
+which determines that the browser must fetch a CSS style sheet from the 
+address main.css.
+
+The <link> HTML element specifies relationships between the current document 
+and an external resource. This element is most commonly used to link to stylesheets,
+but is also used to establish site icons (both "favicon" style icons and icons 
+for the home screen and apps on mobile devices) among other things.
+
+Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation 
+of a document written in HTML or XML (including XML dialects such as SVG, 
+MathML or XHTML). CSS describes how elements should be rendered on screen, 
+on paper, in speech, or on other media.
+
+.container {
+  padding: 10px;
+  border: 1px solid;
+}
+
+.notes {
+  color: blue;
+}
+
+The file defines two class selectors. These are used to select certain 
+parts of the page and to define styling rules to style them.
+A class selector definition always starts with a period and contains the 
+name of the class.
+Classes are attributes, which can be added to HTML elements.
+
+The CSS rule defines that elements with the container class will be outlined 
+with a one-pixel wide border. It also sets 10-pixel padding on the element. 
+This adds some empty space between the element's content and the border.
+
+The second CSS rule sets the text color of the notes class as blue.
+
+HTML elements can also have other attributes apart from classes. The div 
+element containing the notes has an id attribute. JavaScript code uses 
+the id to find the element.
