@@ -1,0 +1,44 @@
+The server and the web browser communicate with each other using the HTTP protocol. 
+(https://developer.mozilla.org/en-US/docs/Web/HTTP)
+Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting 
+hypermedia documents, such as HTML. It was designed for communication between web 
+browsers and web servers, but it can also be used for other purposes. HTTP follows 
+a classical client-server model, with a client opening a connection to make a request, 
+then waiting until it receives a response. HTTP is a stateless protocol, meaning that 
+the server does not keep any data (state) between two requests.
+
+GET
+The GET HTTP method requests a representation of the specified resource. Requests using 
+GET should only be used to request data and shouldn't contain a body.
+
+STATUS CODES
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid request
+
+HEADERS
+The Content-Type representation header is used to indicate the original media type of the 
+resource prior to any content encoding applied before transmission.
+
+UTF-8 is a character encoding standard used for electronic communication. Defined by the 
+Unicode Standard, the name is derived from Unicode Transformation Format – 8-bit. 
+Almost every web page is stored in UTF-8.
+
+''link below adds plugin to chrome to read json files.
+https://chromewebstore.google.com/detail/gmegofmjomhknnokphhckolhcffdaihd
+
+Document Object Model, or DOM, is an Application Programming Interface (API) that 
+enables programmatic modification of the element trees corresponding to web pages.
+
+''Console commands to update lists in a browser using the DOM-API
+document
+'' Lists first unordered list on page
+list = document.getElementsByTagName('ul')[0]
+'' Create a new 'li' and add some text to it
+newElement = document.createElement('li')
+newElement.textContent = 'Page manipulation from console is easy'
+'' Add the new li-element to the list
+list.appendChild(newElement)
+
