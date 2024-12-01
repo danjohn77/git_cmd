@@ -12,6 +12,7 @@ git branch -- confirms that new branch was created. * denotes the active branch.
 git checkout master -- this moves you back to the primary branch.
 git merge <branch name> -- this merges changes from branch to the primary branch.
 git branch -d <branch name> -- once merge has occured the branch can be deleted if necessary.
+git log -- show history of commits.
 ##To push to github
 git remote add origin https://github.com/danjohn77/git_cmd.git -- link to github repo address
 git remote add upstream https://github.com/danjohn77/git_cmd.git -- this command worked better to set up push to github.
