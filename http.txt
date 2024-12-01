@@ -42,3 +42,11 @@ newElement.textContent = 'Page manipulation from console is easy'
 '' Add the new li-element to the list
 list.appendChild(newElement)
 
+POST
+The POST HTTP method sends data to the server. The type of the body of the 
+request is indicated by the Content-Type header.
+
+The difference between PUT and POST is that PUT is idempotent: calling it 
+once is no different from calling it several times successively (there are 
+no side effects). Successive identical POST requests may have additional 
+effects, such as creating the same order several times.
